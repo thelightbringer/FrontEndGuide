@@ -1,6 +1,6 @@
 # React Interview Questions & Answers
 
-> Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
+> Click :star:if you like the project. Pull Request are highly appreciated.
 
 ---
 <div align="center">
@@ -13,19 +13,6 @@
 </div>
 
 ---
-<div>
-Learn to code and get hired with <a href="https://zerotomastery.io/">Zero To Mastery:</a>
-<ol>
-<li>This <a href="https://academy.zerotomastery.io/p/complete-react-developer-redux-hooks-graphql-zero-to-mastery">React course</a> is good if you’re struggling to learn React beyond the basics</li>
-<li>This <a href="https://academy.zerotomastery.io/p/master-the-coding-interview-data-structures-algorithms">coding interview bootcamp</a> is helpful if you’re serious about getting hired as a developer</li>
-</ol>
-</div>
-
----
-
-## Downloading PDF/Epub formats
-
-You can download the PDF and Epub version of this repository from the latest run on the [actions tab](https://github.com/sudheerj/reactjs-interview-questions/actions).
 
 ### Table of Contents
 
