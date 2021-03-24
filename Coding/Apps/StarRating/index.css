@@ -1,0 +1,23 @@
+#root .stars > div {
+    width:20px;
+    height:20px;
+    border: 1px solid;
+    margin:0 0.2em;
+    cursor:pointer;
+}
+
+.stars {
+    display:flex;
+    border:1px solid;
+    padding:0.5em;
+}
+#root {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gold {
+    background-color: gold;
+    transition: background-color 200ms ease-in;
+}
