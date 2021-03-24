@@ -1,0 +1,48 @@
+.carousel-outer {
+    width:50%;
+    height:30em;
+    border:1px solid;
+    margin:auto;
+    overflow:hidden;
+}
+.carousel-outer * {
+    box-sizing: border-box; 
+}
+.carousel-inner {
+    width: 500%;
+    height: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-btns {
+    border-top: 1px solid gainsboro;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-btns > div {
+    font-weight: bold;
+    padding: 0.5em 1em;
+    background-color: aqua; 
+    cursor: pointer;
+
+}
+.img-holder {
+    width: 0px;
+    height:100%;
+    font-size:5em;
+    text-align: center;
+    display: inline-block;
+    float:left;
+    transition: width 0.3s ease-in;
+}
+
+.active {
+    width: 20%;
+}
+
+.sample {
+    background-color: brown;
+}
