@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #app {
+    border: 1px solid;
+    margin: 1em;
+    padding: 1em;
+    height: 90vh;
+    text-align: center;
+  }
+  
+  .info {
+    border: 1px solid;
+    display: inline-block;
+    padding: 0.5em 1em;
+    position: relative;
+    cursor: pointer;
+    margin: 5em;
+  }
+  
+  .popover {
+    box-shadow: 1px 1px 3px 1px rgb(119, 119, 119);
+    position: absolute;
+    display: inline-block;
+    padding: 0.5em 1em;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    color: white;
+  }
+  
+  .left {
+    right: 110%;
+    top: -25%;
+  }
+  .top {
+    left: 0;
+    bottom: 110%;
+  }
+  .bottom {
+    left: 0;
+    top: 110%;
+  }
+  .right {
+    left: 110%;
+    top: -25%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* .popover:after {
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:10px;
+    border-left:5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  .popover:before {
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    top:100%;
+    border-left:5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+  } */
+  
