@@ -2,7 +2,7 @@
 
 A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface. Refer to the image below to understand the key components involved in building a web browser.
 
-![Broswer Engine](./images/BrowserEngine.png)
+![Browswer Engine](https://github.com/thelightbringer/FrontEndGuide/blob/main/Must%20Read/images/BrowserEngine.png)
 
 * __User Interface__ : This component allows end-users to interact with all visual elements available on the web page. The visual elements include the address bar, home button, next button, and all other elements that fetch and display the web page requested by the end-user.
 
