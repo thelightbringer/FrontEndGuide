@@ -1,39 +1,45 @@
 # Coding Questions
 
+## TOTAL - 109
+
+## DONE -
+
+___
+
 ## Array
 
-* Two Sum : <https://leetcode.com/problems/two-sum/>
-* Best Time to Buy and Sell Stock : <https://leetcode.com/problems/best-time-to-buy-and-sell-stock/>
-* Contains Duplicate : <https://leetcode.com/problems/contains-duplicate/>
-* Product of Array Except Self : <https://leetcode.com/problems/product-of-array-except-self/>
-* Maximum Subarray : <https://leetcode.com/problems/maximum-subarray/>
-* Maximum Product Subarray : <https://leetcode.com/problems/maximum-product-subarray/>
-* Find Minimum in Rotated Sorted Array : <https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/>
-* Search in Rotated Sorted Array : <https://leetcode.com/problems/search-in-rotated-sorted-array/>
-* 3Sum : <https://leetcode.com/problems/3sum/>
-* Container With Most Water : <https://leetcode.com/problems/container-with-most-water/>
+* [Two Sum](https://leetcode.com/problems/two-sum/) - DONE
+* [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - DONE
+* [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - DONE
+* [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - DONE
+* [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - ATTEMPTED
+* [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - ATTEMPTED
+* [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+* [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* [3Sum](https://leetcode.com/problems/3sum/)
+* [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 ## Binary
 
-* Sum of Two Integers
-* Number of 1 Bits
-* Counting Bits
-* Missing Number
-* Reverse Bits
+* [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) 
+* [Number of 1 Bits]()
+* [Counting Bits]()
+* [Missing Number]()
+* [Reverse Bits]()
 
 ## Dynamic Programming
 
-* 0/1 Knapsack
-* Climbing Stairs
-* Coin Change
-* Longest Increasing Subsequence
-* Longest Common Subsequence
-* Word Break Problem
-* Combination Sum
-* House Robber and House Robber II
-* Decode Ways
-* Unique Paths
-* Jump Game
+* [0/1 Knapsack]()
+* [Climbing Stairs]()
+* [Coin Change]()
+* [Longest Increasing Subsequence]()
+* [Longest Common Subsequence]()
+* [Word Break Problem]()
+* [Combination Sum]()
+* [House Robber and House Robber II]()
+* [Decode Ways]()
+* [Unique Paths]()
+* [Jump Game]()
 
 ## Geometry
 
@@ -89,10 +95,10 @@
 
 ## Matrix
 
-* Set Matrix Zeroes
-* Spiral Matrix
-* Rotate Image
-* Word Search
+* [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) - DONE
+* [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) - DONE
+* [Rotate Image](https://leetcode.com/problems/rotate-image/)
+* [Word Search](https://leetcode.com/problems/word-search/)
 
 ## Object-Oriented Programming
 
@@ -161,12 +167,12 @@
 
 ## Tree
 
-* Maximum Depth of Binary Tree
-* Same Tree
-* Invert/Flip Binary Tree
-* Binary Tree Maximum Path Sum
-* Binary Tree Level Order Traversal
-* Serialize and Deserialize Binary Tree
+* [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/) - TRIED
+* [Same Tree](https://leetcode.com/problems/same-tree/) - DONE
+* [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) - DONE
+* [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+* [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) - ATTEMPTED
+* [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 * Subtree of Another Tree
 * Construct Binary Tree from Preorder and Inorder Traversal
 * Validate Binary Search Tree
@@ -178,3 +184,5 @@
 * Implement Trie (Prefix Tree)
 * Add and Search Word
 * Word Search II
+
+___
