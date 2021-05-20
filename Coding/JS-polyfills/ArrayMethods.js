@@ -42,24 +42,20 @@ Array.prototype.myReduce = function(fn, init) {
 
 // 5 - every
 Array.prototype.myEvery = function(fn) {
-    let result = true;
     for(let i=0; i < this.length; i++) {
-        if(fn.call(undefined, this[i], i, this) === false) {
-            result = false;
-            break;
+        if(!fn.call(undefined, this[i], i, this) === false) {
+            return false;
         }
     }
-    return result;
+    return true;
 }
 
 // 6 - some
 Array.prototype.mySome = function(fn) {
-    let result = false;
     for(let i=0; i < this.length; i++) {
         if(fn.call(undefined, this[i], i, this) === true) {
-            result = true;
-            break;
+            return true;
         }
     }
-    return result;
+    return false;
 }
