@@ -72,6 +72,18 @@ function objKey(obj, prop) {
     return result;
 }
 
+// Operation based on function invocation
+// This is doing sum based upon last invocation empty
+function operationOnInvocation(a) {
+  return function(b) {
+      if(b === undefined) {
+          return a;
+      } else {
+          return sum(a+b);
+      }
+  }
+}
+
 // Throttling
 
 const throttle = (func, limit) => {
@@ -132,3 +144,21 @@ const throttle = (func, limit) => {
 //   debounceBtn.addEventListener('click', debounce(function() {
 //     console.info('Hey! It is', new Date().toUTCString());
 //   }, 3000));
+
+
+// Throttling
+function fetchTheUsersApi() {
+  let userList = [];
+  let throttle;
+  const ajaxCall = (userList) => console.log(userList);
+  return function fetchUser(id) {
+      const context = this;
+      userList.push(id);
+      clearTimeout(throttle);
+      
+      throttle = setTimeout(() => {
+          ajaxCall.call(context, userList);
+          userList = [];
+      }, 1000);
+  }
+}
