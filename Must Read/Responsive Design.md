@@ -1,6 +1,6 @@
 # Responsive Images
 
-- Meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- Meta tag - ``` <meta name="viewport" content="width=device-width, initial-scale=1.0">```
 - width property is set to 100%, the image will be responsive and scale up and down
 - max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size.
 - Picture element
